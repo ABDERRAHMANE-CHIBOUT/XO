@@ -1,0 +1,67 @@
+.container {
+    text-align: center;
+}
+.title{
+    margin: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: beige;
+    font-size: 35px;
+}
+
+.title span{
+    margin-left: 10px;
+    color: aqua;
+}
+
+.winnermessage{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winnermessage img{
+    margin-right: 13px;
+    height: 40px;
+}
+
+.container button{
+    height: 70px;
+    width: 160px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight:500;
+    color: rgb(0, 72, 131);
+    background-color: rgba(240, 248, 255, 0.658);
+    box-shadow: 1px 1px 10px rgba(0, 255, 255, 0.829);
+}
+
+.container button:hover{
+    color: rgb(0, 63, 114);
+    background-color: hsla(318, 100%, 81%, 0.623);
+    box-shadow: 2px 1px 10px rgba(255, 40, 148, 0.479);
+}
+
+.border{
+    display:flex;
+    justify-content: center;
+    height:350px;
+    width: 580px;
+    margin: auto;
+}
+
+.boxes{
+    display: flex;
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    background: rgba(108, 12, 121, 0.5);
+    border: 2px solid rgba(121, 20, 134, 0.459) ;
+    border-radius: 12px;
+}
+
+.boxes img{
+    margin: 20px;
+}
